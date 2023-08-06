@@ -1,0 +1,24 @@
+.button-image{
+    display:flex ; 
+    flex-direction: row;
+}
+
+#suitImage{
+
+    width:100%;
+    background-attachment: fixed;
+    flex: 1;
+    
+}
+
+body{
+    padding-top: 60px;
+}
+
+.AddToCart{
+    position: fixed;
+    bottom: 0;
+}
+
+
+

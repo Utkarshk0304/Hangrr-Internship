@@ -1,0 +1,153 @@
+
+
+
+.button-button{
+    
+    border: none;
+    background-color: white;
+    
+    padding: 10px;
+    height: 40px;
+   
+    border-bottom: 1px solid rgb(224, 224, 224);
+   margin-top: 50px;
+    width: 100px;
+    
+    
+}
+.button-button:hover {
+    
+   border-bottom: 1px solid rgb(82, 81, 81);
+   transition-duration: 0.4s;
+   cursor:pointer;
+  
+}
+
+
+.container{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 95%;
+    padding: 40px;
+    padding-left: 17px;
+    padding-right: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 100px;
+   
+    max-height: 1000px;
+    
+
+}
+
+.container-2nd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 95%;
+    padding: 40px;
+    padding-left: 17px;
+    padding-right: 100px;
+    padding-top: 0;
+    
+   padding-bottom: 0;
+    max-height: 1000px;
+    
+}
+.container-3rd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 95%;
+    padding: 40px;
+    padding-left: 17px;
+    padding-right: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    margin-bottom: 0;
+    max-height: 1000px;
+}
+.container-4th{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 95%;
+    padding: 40px;
+    padding-left: 17px;
+    padding-right: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    margin-bottom: 0;
+    max-height: 1000px;
+}
+.container-2{ 
+display: flex;
+flex-direction: row;
+flex-wrap:wrap ;
+justify-content: space-between;
+max-width: 800px;
+width: 95%;
+padding: 40px;
+padding-left: 17px;
+padding-right: 100px;
+padding-top: 0;
+margin-top: 50px;
+margin-bottom: 100px;
+max-height: 1000px;
+
+
+}
+
+.RenderCard{
+    margin-bottom: 30px;
+    height:210px;
+    width:30%;
+    border-radius: 5px;
+    border:1px solid grey;
+    overflow: hidden;
+    background-color: rgb(245, 240, 250);
+    padding-bottom: 5px;
+}
+.RenderCard img{
+    width: 100%;
+    height:160px;
+    object-fit: cover;
+   
+   padding-right: 2px;
+    border-bottom: 1px solid grey;
+  
+}
+.RenderCard p{
+    padding-left: 10px;
+ margin: auto;
+    
+   
+   
+}
+
+.RenderCard:hover{
+   
+    background-color: rgb(204, 203, 203);
+    font-weight:400;
+    transition-duration: .4s;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+.to-fix-button{
+ position: fixed;  
+
+}
+

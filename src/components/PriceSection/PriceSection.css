@@ -1,0 +1,33 @@
+.Price-section{
+    display: flex;
+    flex-direction: row;
+    width:44%;
+    background-color: rgb(29, 29, 29);
+    height: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+
+.Price-section-img{
+    height:50px;
+    margin-left: 3px;
+    width: 60px;
+    background-color: white;
+    
+}
+.NameOfSuit{
+   margin-left: 0;
+    font-size: 10px;
+   padding-right: 40%;
+}
+.Price-section-div{
+    border: 1px solid white;
+   margin-right: 14%;
+   padding:5px;
+   font-size: small;
+    
+    
+}
